@@ -1,0 +1,99 @@
+/* Besic */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /* overflow: hidden; */
+}
+body {
+  font-family: "poppins";
+}
+
+#logo {
+  height: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+.login_btn {
+  /* display: block; */
+  background-color: #21b573;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Hero Design */
+
+.bg-primary-my {
+  background-color: #f0fff0;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.color_text {
+  color: #21b573;
+}
+
+.small_sub_title {
+  color: #fd511a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Card:: */
+.card-my {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 25px;
+
+}
+
+.card_title_my {
+  color: #413960;
+
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card_sub_title_my {
+  color: #585859;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
